@@ -11,30 +11,37 @@ class Program
         // Parses string input as int for later use
         int grade = int.Parse(userInput);
 
-        // Compares input to a grade and writes letter grade to console
+        // Place holder for letter grade to be assigned
+        string letter;
+
+        // Compares input to a grade & assigns letter grade
         if (grade >= 90)
         {
-            Console.WriteLine("Your letter grade is: A");
+            letter = "A";
         }
         else if (grade >= 80)
         {
-            Console.WriteLine("Your letter grade is: B");
+            letter = "B";
         }
         else if (grade >= 70)
         {
-            Console.WriteLine("Your letter grade is: C");
+            letter = "C";
+
         }
         else if (grade >= 60)
         {
-            Console.WriteLine("Your letter grade is: D");
+            letter = "D";
         }
         else
         {
-            Console.WriteLine("Your letter grade is: F");
+            letter = "F";
         }
 
-        // Checks to see if student passed, 70 or better
-        // Displays a messeage to console
+        // Displays letter grade
+        Console.WriteLine($"Your grade is: {letter}");
+
+        // Checks to see if student passed; 70 or better
+        // Displays a messeage 
         if (grade >= 70)
         {
             Console.WriteLine("Congratulations, you passed!");
