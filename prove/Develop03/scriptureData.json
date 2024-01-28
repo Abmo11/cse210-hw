@@ -1,0 +1,28 @@
+[
+    {
+        "book": "Mosiah",
+        "chapter": 8,
+        "verse": 18,
+        "words": "Thus God has provided a means that man, through faith, might work mighty miracles; therefore he becometh a great benefit to his fellow beings."
+    },
+    {
+        "book": "Moroni",
+        "chapter": 10,
+        "verse": 23,
+        "words": "And Christ truly said unto our fathers: If ye have faith ye can do all things which are expedient unto me."
+    },
+    {
+        "book": "Doctrine and Covenants",
+        "chapter": 18,
+        "verse": 15,
+        "endVerse": 16,
+        "words": "And if it so be that you should labor all your days in crying repentance unto this people, and bring, save it be one soul unto me, how great shall be your joy with him in the kingdom of my Father! And now, if your joy will be great with one soul that you have brought unto me into the kingdom of my Father, how great will be your joy if you should bring many souls unto me!"
+    },
+    {
+        "book": "1 Corinthians",
+        "chapter": 15,
+        "verse": 20,
+        "endVerse": 22,
+        "words": "But now is Christ risen from the dead, and become the firstfruits of them that slept. For since by man came death, by man came also the resurrection of the dead. For as in Adam all die, even so in Christ shall all be made alive."
+    }
+]
