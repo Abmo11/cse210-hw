@@ -3,7 +3,7 @@ using System;
 public abstract class Shape
 {
     // Member variable
-    string _color = " ";
+    protected string _color = " ";
 
     // Constructor
     public Shape(string colour)
