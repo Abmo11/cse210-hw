@@ -1,0 +1,48 @@
+{
+  "Score": 355,
+  "Goals": [
+{
+  "Type": "Simple",
+  "Name": "Run",
+  "Description": "Run 5 miles this week",
+  "Points": 100,
+  "IsComplete": true
+},
+{
+  "Type": "Eternal",
+  "Name": "Eat healthy",
+  "Description": "At least 1 healthy meal a day",
+  "Points": 5
+},
+{
+  "Type": "Checklist",
+  "Name": "Do homework",
+  "Description": "Complete 5 assignments this week",
+  "Points": 50,
+  "Target": 5,
+  "Bonus": 150,
+  "AmountCompleted": 3
+},
+{
+  "Type": "Simple",
+  "Name": "Help someone",
+  "Description": "Help at least 1 person this week",
+  "Points": 10,
+  "IsComplete": false
+},
+{
+  "Type": "Checklist",
+  "Name": "Active learning",
+  "Description": "Learn 2 new things this month",
+  "Points": 50,
+  "Target": 2,
+  "Bonus": 100,
+  "AmountCompleted": 2
+},
+{
+  "Type": "Eternal",
+  "Name": "Relax",
+  "Description": "1 recreation activity a day to help with stress",
+  "Points": 10
+}
+]}
