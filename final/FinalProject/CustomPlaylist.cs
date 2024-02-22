@@ -1,9 +1,11 @@
 using System;
 
-public class MusicVaultPlaylist : Playlist
+// Playlist that looks for a certain artist and makes a list of songs
+// based on specified artist
+public class CustomPlaylist : Playlist
 {
     // CONSTRUCTOR
-    public MusicVaultPlaylist(string name) : base(name)
+    public CustomPlaylist(string name) : base(name)
     {
 
     }
@@ -11,10 +13,9 @@ public class MusicVaultPlaylist : Playlist
     // METHODS
     public override void DisplayDescription()
     {
-        string display = $"You have {_songCount} total songs:";
+        string display = $"You picked {_songCount} songs for Playlist {_name}:";
         Console.WriteLine(display);
         Console.WriteLine();
-
 
         int counter = 1;
         foreach (Song s in _songList)
@@ -23,5 +24,4 @@ public class MusicVaultPlaylist : Playlist
             counter++;
         }
     }
-
 }

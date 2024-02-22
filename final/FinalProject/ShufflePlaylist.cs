@@ -12,8 +12,9 @@ public class ShufflePlaylist : Playlist
     // METHODS
     public override void DisplayDescription()
     {
-        string display = $"There are 10 shuffled songs in {_name}:";
+        string display = $"There are 10 shuffled songs in Playlist {_name}:";
         Console.WriteLine(display);
+        Console.WriteLine();
 
         int counter = 1;
         foreach (Song s in _songList)

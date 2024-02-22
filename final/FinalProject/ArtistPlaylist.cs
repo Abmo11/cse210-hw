@@ -13,23 +13,25 @@ public class ArtistPlaylist : Playlist
     // METHODS
     public override void DisplayDescription()
     {
-        string display = $"There are {_songCount} songs in {_name}:";
+        string display = $"There are {_songCount} songs in Playlist {_name}:";
         Console.WriteLine(display);
+        Console.WriteLine();
 
         int counter = 1;
         foreach (Song s in _songList)
         {
-            Console.WriteLine($"{counter}. {s.DisplaySongInfo}");
+            Console.WriteLine($"{counter}. {s.DisplaySongInfo()}");
+            counter++;
         }
     }
 
-    public void AddSongByArtist(Song song, string artist)
+    public void AddSongByArtist(List<Song> songs, string artist)
     {
-        foreach (Song s in _songList)
+        foreach (Song s in songs)
         {
-            if (song.GetArtist() == artist)
+            if (s.GetArtist() == artist)
             {
-                AddSong(song); // Uses AddSong method
+                AddSong(s); // Uses AddSong method
             }
         }
 

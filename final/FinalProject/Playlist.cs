@@ -29,10 +29,15 @@ public abstract class Playlist
     // METHODS
     public abstract void DisplayDescription();
 
-    public void AddSong(Song song) // Make abstract?
+    public void AddSong(Song song)
     {
         _songList.Add(song);
         _songCount++;
+    }
+
+    public List<Song> GetSongs()
+    {
+        return _songList; // Returns songs
     }
 
     public void RemoveSong(int index)
