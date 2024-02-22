@@ -282,29 +282,4 @@ public class PlaylistManager
             }
         }
     }
-
-
-    private void SavePlaylists()
-    {
-        Console.Write("What is the filename for the goal file? ");
-        string file = Console.ReadLine();
-
-        // Create or overwrite the file using StreamWriter
-        using (StreamWriter writer = new StreamWriter(file))
-        {
-
-        }
-    }
-
-    private void LoadPlaylists()
-    {
-        Console.Write("What is the filename for the goal file? ");
-        string file = Console.ReadLine();
-
-        // Open the file for reading
-        using (StreamReader inputFile = new StreamReader(file))
-        {
-
-        }
-    }
 }
